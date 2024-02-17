@@ -46,6 +46,7 @@ body{
     gap:40px;
 }
 
+
 .footer-social{
     display: flex;
     flex-direction: row;
@@ -83,7 +84,53 @@ body{
 
 }
 
-.footer-social-links{
-    
-}
 
+@media screen and (max-width: 320px) {
+
+    .footer-container {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .footer-title {
+      width: auto; 
+      text-align: left;
+      font-size: 20px;
+    
+    }
+  
+    .footer-second-title {
+      font-size: 38px;
+      display: block;
+    }
+  
+    .footer-social-contact {
+      align-items: flex-end; 
+    }
+  
+    .footer-social {
+      gap: 30px; 
+    }
+  
+    .footer-contact,
+    .footer-contact-style {
+     
+      text-align: right !important;
+      font-size: 12px;
+    
+    }
+  
+    .footer-copyright {
+     text-align: center;
+        font-size: 14px;
+     
+    }
+  }
+
+
+
+  /*tableta*/
+
+  
+
+  
