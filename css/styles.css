@@ -110,7 +110,7 @@ flex-wrap: wrap;
     transform: scale(1.2);
 }
 
-/* Start responsive footer*/
+/* responsive footer*/
 
   @media screen and (width >=320px) {
 
@@ -262,6 +262,7 @@ flex-wrap: wrap;
   
       }
 }
+
 
 
 @media screen and (width >=1158px) {
