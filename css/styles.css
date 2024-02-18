@@ -302,23 +302,18 @@ flex-wrap: wrap;
           align-items: center;
       }
       
-              .footer-title-sec {
+              .footer-tittle-sec {
                   color: #FFA5BA;
-                  /* Set the initial color */
                   transition: color 0.3s;
-                  /* Apply a smooth color transition effect over 0.3 seconds */
               }
 
-              .footer-title:hover .footer-title-sec {
+              .footer-title:hover .footer-tittle-sec {
                   color: #D41443;
-                  /* Change the color of the span on hover */
                   display: flex;
                   flex-direction: column;
                   justify-content: center;
                   align-items: center;
-                  /* Move the span to the next row */
                   width: 60%;
-                  /* Make it full width to move to next line */
               }
       
   
